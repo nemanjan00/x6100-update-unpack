@@ -39,7 +39,7 @@ then
 	mkdir -p out/partition2.d
 	mkdir -p out/partition3.d
 
-	7z x out/partition1 -o out/partition1.d
-	7z x out/partition2 -o out/partition2.d
-	7z x out/partition3 -o out/partition3.d
+	7z x out/partition1 -oout/partition1.d
+	7z x out/partition2 -oout/partition2.d
+	7z x out/partition3 -oout/partition3.d
 fi
